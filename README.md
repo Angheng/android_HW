@@ -26,3 +26,9 @@ $ 형식 => {"id":"idData", "pass":"password", "name":"userName", "phone":"phone
 
 ## UerAdapter.class
 1. MainActivity의 ListView의 item View 구성
+
+
+## MainActivity.class
+1. 회원가입된 모든 유저의 ID와 Password를 ListView의 아이템으로 출력
+2. ListView의 아이템을 클릭하여 유저 삭제 가능
+3. 버튼클릭으로 모든 유저 삭제 가능
