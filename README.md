@@ -8,7 +8,7 @@ Screenshots
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/36337335/66752686-f9036880-eecc-11e9-81fe-b1d529859cac.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/36337335/66752820-526b9780-eecd-11e9-890f-e326491449f6.jpg">
-  <img width="200" src="https://user-images.githubusercontent.com/36337335/66752852-69aa8500-eecd-11e9-8687-14260ba72e84.jpg></div>
+  <img width="200" src="https://user-images.githubusercontent.com/36337335/66752852-69aa8500-eecd-11e9-8687-14260ba72e84.jpg"></div>
  
 
 
