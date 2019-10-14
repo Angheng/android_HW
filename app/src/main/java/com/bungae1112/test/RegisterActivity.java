@@ -239,7 +239,7 @@ public class RegisterActivity extends AppCompatActivity {
                     PrefManager.userData.put(jsonObject);
                     pref.setPrefString("users", PrefManager.userData.toString());
 
-                    Toast.makeText(RegisterActivity.this, pref.getPrefString("users"), Toast.LENGTH_SHORT).show();
+                    finish();
                 }
             }
         });

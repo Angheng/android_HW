@@ -13,8 +13,8 @@ import org.json.JSONObject;
 import static android.content.ContentValues.TAG;
 
 public class PrefManager {
-    private SharedPreferences pref;
-    private Context context;
+    private static SharedPreferences pref;
+    private static Context context;
     private static final  String prefName = "users";
     protected static JSONArray userData;
 
@@ -58,7 +58,7 @@ public class PrefManager {
         return false;
     }
 
-    protected JSONArray getJsonArray(String key) throws JSONException {
+    static public JSONArray getJsonArray(String key) throws JSONException {
         JSONArray jArr;
         String data = getPrefString(key);
 
@@ -71,13 +71,13 @@ public class PrefManager {
         return jArr;
     }
 
-    protected String getPrefString(String key) {
+    protected static String getPrefString(String key) {
         pref = context.getSharedPreferences(prefName, Activity.MODE_PRIVATE);
         Log.w("getPref", "called : " + pref.getString(key, "Null"));
         return pref.getString(key, "Null");
     }
 
-    protected void setPrefString (String key, String json) {
+    static public void setPrefString (String key, String json) {
 
         Log.w("setPref", "called : " + json);
         pref = context.getSharedPreferences(prefName, Activity.MODE_PRIVATE);
